@@ -1,0 +1,148 @@
+TEST = Eline Verne
+
+performance of feature classifier:
+              precision    recall  f1-score   support
+
+         PER      0.984     0.961     0.972      1309
+         LOC      0.811     0.729     0.768        59
+         ORG      0.000     0.000     0.000         2
+         PKM      0.891     0.712     0.791       413
+         OBJ      0.841     0.703     0.766       316
+        MISC      0.632     0.208     0.313       173
+
+   micro avg      0.934     0.816     0.871      2272
+   macro avg      0.693     0.552     0.602      2272
+weighted avg      0.915     0.816     0.854      2272
+ samples avg      0.815     0.816     0.815      2272
+
+TEST = Sherlock Holmes
+
+              precision    recall  f1-score   support
+
+         PER      0.975     0.971     0.973      1307
+         LOC      0.915     0.682     0.781       110
+         ORG      0.000     0.000     0.000        11
+         PKM      0.724     0.739     0.732       330
+         OBJ      0.809     0.663     0.729       288
+        MISC      0.814     0.281     0.417       342
+
+   micro avg      0.904     0.785     0.840      2388
+   macro avg      0.706     0.556     0.605      2388
+weighted avg      0.890     0.785     0.817      2388
+ samples avg      0.785     0.785     0.785      2388
+
+
+TEST = De Ellendigen
+
+              precision    recall  f1-score   support
+
+         PER      0.957     0.945     0.951      1290
+         LOC      0.842     0.526     0.647       253
+         ORG      0.000     0.000     0.000        40
+         PKM      0.836     0.458     0.592       356
+         OBJ      0.831     0.625     0.714       323
+        MISC      0.554     0.368     0.443       152
+
+   micro avg      0.900     0.734     0.809      2414
+   macro avg      0.670     0.487     0.558      2414
+weighted avg      0.869     0.734     0.787      2414
+ samples avg      0.734     0.734     0.734      2414
+
+
+
+TEST = Max Havelaar
+
+              precision    recall  f1-score   support
+
+         PER      0.975     0.953     0.964      1374
+         LOC      0.782     0.654     0.712       104
+         ORG      0.000     0.000     0.000        49
+         PKM      0.885     0.544     0.674       355
+         OBJ      0.821     0.601     0.694       168
+        MISC      0.549     0.284     0.375       176
+
+   micro avg      0.925     0.774     0.842      2226
+   macro avg      0.669     0.506     0.570      2226
+weighted avg      0.885     0.774     0.818      2226
+ samples avg      0.771     0.772     0.772      2226
+
+TEST = De Uitvreter
+
+              precision    recall  f1-score   support
+
+         PER      0.973     0.982     0.977      1790
+         LOC      0.902     0.712     0.796       285
+         ORG      0.000     0.000     0.000        12
+         PKM      0.783     0.756     0.769       172
+         OBJ      0.903     0.682     0.777       576
+        MISC      0.903     0.186     0.309       301
+
+   micro avg      0.942     0.810     0.871      3136
+   macro avg      0.744     0.553     0.605      3136
+weighted avg      0.933     0.810     0.845      3136
+ samples avg      0.810     0.810     0.810      3136
+
+TEST = Dichtertje
+
+              precision    recall  f1-score   support
+
+         PER      0.960     0.963     0.961      2219
+         LOC      0.772     0.668     0.716       376
+         ORG      0.000     0.000     0.000        20
+         PKM      0.846     0.755     0.798       457
+         OBJ      0.856     0.648     0.737       661
+        MISC      0.862     0.261     0.401       383
+
+   micro avg      0.912     0.792     0.848      4116
+   macro avg      0.716     0.549     0.602      4116
+weighted avg      0.899     0.792     0.828      4116
+ samples avg      0.791     0.792     0.791      4116
+
+
+TEST = Titaantjes
+
+              precision    recall  f1-score   support
+
+         PER      0.975     0.975     0.975      1436
+         LOC      0.924     0.588     0.718       354
+         ORG      0.000     0.000     0.000        15
+         PKM      0.924     0.690     0.790       210
+         OBJ      0.783     0.798     0.791       317
+        MISC      0.855     0.292     0.435       202
+
+   micro avg      0.934     0.815     0.871      2534
+   macro avg      0.744     0.557     0.618      2534
+weighted avg      0.924     0.815     0.852      2534
+ samples avg      0.815     0.815     0.815      2534
+
+TEST = Anna Karenina
+
+              precision    recall  f1-score   support
+
+         PER      0.987     0.978     0.982      1455
+         LOC      0.717     0.478     0.574        69
+         ORG      0.000     0.000     0.000        49
+         PKM      0.888     0.766     0.822       435
+         OBJ      0.852     0.758     0.802       182
+        MISC      0.629     0.421     0.505       133
+
+   micro avg      0.938     0.854     0.894      2323
+   macro avg      0.679     0.567     0.614      2323
+weighted avg      0.908     0.854     0.878      2323
+ samples avg      0.853     0.854     0.853      2323
+
+TEST = Reis Om De Wereld
+
+              precision    recall  f1-score   support
+
+         PER      0.955     0.968     0.962      1099
+         LOC      0.783     0.749     0.766       227
+         ORG      0.000     0.000     0.000       114
+         PKM      0.802     0.615     0.696       309
+         OBJ      0.872     0.551     0.676       272
+        MISC      0.748     0.423     0.541       196
+
+   micro avg      0.895     0.747     0.815      2217
+   macro avg      0.693     0.551     0.607      2217
+weighted avg      0.839     0.747     0.783      2217
+ samples avg      0.747     0.747     0.747      2217
